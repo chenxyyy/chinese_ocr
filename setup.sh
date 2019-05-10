@@ -1,9 +1,9 @@
-pip install numpy scipy matplotlib pillow
-pip install easydict opencv-python keras h5py PyYAML
-pip install cython==0.24
+pip3 install numpy scipy matplotlib pillow -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install easydict opencv-python keras h5py PyYAML -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install cython -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # for gpu
-pip install tensorflow-gpu==1.3.0
+pip3 install tensorflow-gpu -i https://pypi.tuna.tsinghua.edu.cn/simple
 chmod +x ./ctpn/lib/utils/make.sh
 cd ./ctpn/lib/utils/ && ./make.sh
 
